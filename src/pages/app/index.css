@@ -59,3 +59,17 @@ input{
     width: 9%;
     cursor: pointer;
 }
+
+@media (max-widith:783px ) {
+   .list{
+        list-style: none;
+        width: 70%;
+   }
+}
+
+@media (max-widith:480px) {
+    .list{
+        list-style: none;
+        width: 50%;
+       }   
+}
